@@ -9,13 +9,14 @@
 }
 
 
-ul{
+.topNav ul{
     list-style-type:none;
     background-color: rgb(81, 201, 239);
     overflow: hidden;
+    margin: 0px;
 }
 
-ul li {
+.topNav ul li {
     float: left;
     display: block;
     text-align: center;
@@ -25,28 +26,36 @@ ul li {
     padding-top: 10px;
 }
 
-ul li:hover {
+.topNav ul li:hover {
     background-color: #A9A9A9;
     color: rgb(81, 201, 239);
 }
 
-ul li:active {
+.topNav ul li:active {
     background-color: #A9A9A9;
     color: rgb(81, 201, 239);
 }
 
-ul li a{
+.topNav ul li a{
     color: white;
     text-decoration: none;
     font-family: Corbel;
     font-size: 17px;
 }
 
-ul li a: hover{
+.topNav ul li a: hover{
     background-color: #A9A9A9;
     color: rgb(81, 201, 239);
 }
-ul li a: active{
+.topNav ul li a: active{
     background-color: #A9A9A9;
     color: rgb( 81, 201, 239);
+}
+
+.content ul{
+    list-style-type: none;
+}
+
+.content ul li:hover{
+    opacity:50%;
 }
