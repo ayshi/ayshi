@@ -55,7 +55,3 @@
 .content ul{
     list-style-type: none;
 }
-
-.content ul li:hover{
-    opacity:50%;
-}
